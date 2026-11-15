@@ -9,7 +9,7 @@ import qrcode
 from qrcode.constants import ERROR_CORRECT_H
 from qrcode.image.svg import SvgPathImage
 
-BASE = "https://SEM-DAJ-SVOJU-ADRESU/"   # napr. https://dobravoda.sk/
+BASE = "https://tomasmiklas-ops.github.io/Dobra_Voda/"   # napr. https://dobravoda.sk/
 POCET_ZASTAVENI = 8
 
 for n in range(1, POCET_ZASTAVENI + 1):
