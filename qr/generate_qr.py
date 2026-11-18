@@ -10,10 +10,12 @@ from qrcode.constants import ERROR_CORRECT_H
 from qrcode.image.svg import SvgPathImage
 
 BASE = "https://tomasmiklas-ops.github.io/Dobra_Voda/"   # napr. https://dobravoda.sk/
-POCET_ZASTAVENI = 8
+POCET_ZASTAVENI = 9
+# Značka, podľa ktorej GoatCounter rozozná návštevu z QR kódu od bežnej návštevy.
+PARAMETER = "?utm_source=qr"
 
 for n in range(1, POCET_ZASTAVENI + 1):
-    url = f"{BASE}{n}/"
+    url = f"{BASE}{n}/{PARAMETER}"
     qr = qrcode.QRCode(error_correction=ERROR_CORRECT_H, box_size=20, border=4)
     qr.add_data(url)
     qr.make(fit=True)

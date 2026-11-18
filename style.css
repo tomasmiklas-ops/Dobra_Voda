@@ -300,3 +300,8 @@ mark.overit {
 }
 .stop-nav a { max-width: 22rem; }
 .hero-compact h1 { max-width: 22ch; }
+
+/* Trasy a navigacia podla trasy */
+.route-note { margin: 0.75rem 0 0; color: var(--muted); font-size: 0.95rem; }
+.route-note a { text-decoration: underline; text-underline-offset: 0.2em; }
+#trasy h3 { margin: 2rem 0 0.5rem; }
