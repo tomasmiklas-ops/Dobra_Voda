@@ -1,81 +1,27 @@
 <!DOCTYPE html>
-<html lang="sk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ajšnit: úzkorozchodná lesná železnica | Sprievodca Dobrou Vodou</title>
-  <meta name="description" content="Treba upresniť, kde presne sa miesto s názvom Ajšnit nachádza a odkiaľ názov pochádza. V použitých zdrojoch sa nenašiel.">
-  <link rel="stylesheet" href="../style.css">
-  <script data-goatcounter="https://dobravoda.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-</head>
-<body>
-
-  <header class="site-header">
-    <div class="container">
-      <a class="logo" href="../">
-        <span class="znacka" aria-hidden="true"></span>
-        <span>Sprievodca Dobrou Vodou</span>
-      </a>
-      <nav class="nav" aria-label="Hlavná navigácia">
-        <a href="../#zastavenia">Zastavenia</a>
-        <a href="../#o-sprievodcovi">O sprievodcovi</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero hero-compact">
-    <div class="container">
-      <p class="hero-kicker">Zastavenie 2 z 9</p>
-      <h1>Ajšnit: úzkorozchodná lesná železnica</h1>
-    </div>
-  </section>
-
-  <main class="section">
-    <div class="container">
-      <a class="back" href="../#zastavenia">← Všetky zastavenia</a>
-
-      <div class="article-layout">
-        <div class="article-text">
-          <p><mark class="overit">[Treba upresniť, kde presne sa miesto s názvom Ajšnit nachádza a odkiaľ názov pochádza. V použitých zdrojoch sa nenašiel.]</mark></p>
-          <p>Dobrovodská lesná železnica bola úzkokoľajná trať s rozchodom 600 mm, ktorú stavali v rokoch 1901 až 1903. Spájala Malú stanicu v Smoleniciach s pobočným závodom (fabrikou) v Dobrej Vode a bola dlhá 22 km. Po trati prepravovali výrobky a zároveň ňou zásobovali závod aj Malú stanicu drevom z lesov, ktorými viedla. Cesta do Dobrej Vody trvala jeden a pol hodiny, späť jednu hodinu. Na trati boli tri výhybne: Švajčiarka pri Naháči, Katarínka pod Okrúhlou a Planinka.</p>
-          <p>Trať prekonávala členitý terén množstvom serpentín a smerom k Dobrej Vode sa dvakrát otáčala o 180 stupňov. Pozoruhodné sú 3 až 4 metre hlboké zárezy do svahu, ktoré v teréne zostali dodnes.</p>
-
-          <section class="sources">
-            <h2>Zdroje</h2>
-            <ul>
-            <li><a href="https://www.zskosariska.sk/zeleznica/historia6.html">Dobrovodská lesná železnica (zskosariska.sk)</a></li>
-            </ul>
-          </section>
-        </div>
-
-        <aside>
-          <dl class="facts">
-            <h2>V skratke</h2>
-          <dt>Téma</dt>
-          <dd>História</dd>
-          <dt>Rozchod</dt>
-          <dd>600 mm</dd>
-          <dt>Dĺžka trate</dt>
-          <dd>22 km</dd>
-          <dt>Vybudovaná</dt>
-          <dd>1901 až 1903</dd>
-          </dl>
-        </aside>
-      </div>
-
-      <nav class="stop-nav" aria-label="Ďalšie zastavenia na trase">
-        <a href="../1/">← 1. Prameň Hlávka</a>
-        <a href="../3/">3. Vyvieračka pod Bachárkou →</a>
-      </nav>
-      <p class="route-note">Krátka trasa: ďalej <a href="../4/">4. Hrad Dobrá Voda</a>.</p>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>Školský maturitný projekt 2026/27. Texty vychádzajú z overených zdrojov uvedených pri každom zastavení.</p>
-    </div>
-  </footer>
-
-</body>
-</html>
+<html lang="sk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ajšnit – stopy lesnej úzkokoľajnej železnice | Dobrá Voda – digitálny sprievodca</title><meta name="description" content="Názov Ajšnit je zľudovené nemecké slovo Einschnitt – terénny zárez. Miestni tak označujú pozostatky lesnej úzkokoľajnej železnice s rozchodom 600 milimetro"><meta name="theme-color" content="#12353A">
+<link rel="preload" href="../fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
+<script data-goatcounter="https://dobravoda.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></head>
+<body class="stop t-hist"><header class="site-header"><div class="wrap bar"><a class="brand" href="../"><span class="mk"><svg class="mark" viewBox="112 56 176 270" aria-hidden="true"><defs><polygon id="tch" points="0,-96 24,-54 13,-54 38,-14 -38,-14 -13,-54 -24,-54"/><clipPath id="cch"><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z"/></clipPath></defs><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z" fill="var(--mark-bg,#12353A)"/><g clip-path="url(#cch)"><use href="#tch" transform="translate(162 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tch" transform="translate(238 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tch" transform="translate(200 262)" fill="#F4EFE3"/><path d="M156 268 q10.5 -8 21 0 t21 0 t21 0 t21 0 t21 0" fill="none" stroke="#3FA7C4" stroke-width="5" stroke-linecap="round"/></g></svg></span><span class="bt"><b>Dobrá Voda</b><i>Digitálny sprievodca</i></span></a>
+<nav class="nav" aria-label="Hlavná navigácia"><a href="../#mapa">Mapa</a><a href="../#zastavenia">Zastavenia</a><a href="../#trasy">Trasy</a><a href="../#o-chodniku">O chodníku</a></nav></div></header>
+<section class="shero"><img class="bg" src="../img/2-1.jpg" alt="Zastavenie 2: Ajšnit – stopy lesnej úzkokoľajnej železnice" onerror="this.remove()"><div class="wrap">
+<a class="back" href="../#zastavenia">← Všetky zastavenia</a>
+<p class="kick"><span class="bn">2</span> Zastavenie 2 z 9 <i>·</i> História <i>·</i> <span class="rt">Krátka aj dlhá trasa</span></p>
+<h1>Ajšnit – stopy lesnej úzkokoľajnej železnice</h1></div></section>
+<main class="wrap art"><article>
+<p>Názov Ajšnit je zľudovené nemecké slovo Einschnitt – terénny zárez. Miestni tak označujú pozostatky lesnej úzkokoľajnej železnice s rozchodom 600 milimetrov, ktorú dali vybudovať Pálfiovci. Úsek zo Smoleníc (Malá stanica) k pobočnej fabrike v Dobrej Vode, dlhý asi 22 kilometrov, postavili v rokoch 1901 – 1903. Cesta vláčikom smerom na Dobrú Vodu trvala hodinu a pol, späť už len hodinu. (zskosariska.sk)</p><p>Pri Dobrej Vode sa trať nekončila. Pokračovala ďalej do malokarpatských lesov – hlavná trať viedla od fabriky Dobrovodskou dolinou až na lokalitu Široká a z Dobrej Vody vychádzali aj odbočky na Suchánce a na Mariáš. Celá trasa Smolenice – Dobrá Voda – Široká merala asi 35 kilometrov. Niektoré odbočky boli len dočasné: napríklad vetvu na Antaličky postavili v rokoch 1908 – 1910 a po vyťažení dreva ju v 30. rokoch rozobrali. (rail.sk; Mereďa 2019)</p><p>Fabrika, ku ktorej trať viedla, bol pobočný závod pálfiovskej továrne na suchú destiláciu dreva z Horných Orešian. Jozef Pálfi ho začal budovať v roku 1899 a v prevádzke bol od roku 1901. Bukové drevo sa tu zahrievalo bez prístupu vzduchu a vyrábali sa z neho chemikálie – octan vápenatý, kyselina octová a acetón – a ako vedľajší produkt drevené uhlie. Areál bývalej továrne stojí dodnes južne od obce, asi kilometer pred Dobrou Vodou, a sídli v ňom obecný podnik. (rail.sk; Mereďa 2022; Wikipédia)</p><p>Trasa prekonávala členitý malokarpatský terén pomocou serpentín – smerom k Dobrej Vode sa dvakrát otáčala o 180° – a 3 až 4 metre hlbokých zárezov do svahu. Keď v rokoch 1957 – 1958 skončila v chemických závodoch suchá destilácia dreva, stratila trať zmysel – posledný vlak tu prešiel v roku 1960. Teleso trate, násypy a zárezy sú však v lese čitateľné dodnes a časť z nich slúži ako lesná cesta. (rail.sk; zskosariska.sk)</p>
+<figure class="fig"><img src="../img/2-2.jpg" alt="Zastavenie 2: Ajšnit – stopy lesnej úzkokoľajnej železnice" loading="lazy" onerror="this.closest('figure').remove()"></figure>
+<div class="callout see"><h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1.5 12S5.5 5 12 5s10.5 7 10.5 7-4 7-10.5 7S1.5 12 1.5 12z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>Všimnite si na mieste</h2><p>Prejdite kúsok po telese trate. Odhadnite hĺbku zárezu a predstavte si, koľko ručnej práce si jeho vykopanie vyžiadalo. Všimnite si aj sklon: lesné železnice stúpajú veľmi mierne a plynulo – podľa toho ich spoznáte aj tam, kde už nie sú koľajnice.</p></div>
+<div class="callout go"><h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Kam ďalej</h2><ul class="nextl"><li><b>Krátka trasa</b><span>Pokračujte priamo na hrad (zastavenie 4).</span></li><li><b>Dlhá trasa</b><span>Odbočte k Vyvieračke pod Bachárkou (zastavenie 3) <mark class="overit">[doplniť popis trasy]</mark>.</span></li></ul></div>
+<section class="sources"><h2>Zdroje</h2><ul><li><a href="https://www.zskosariska.sk/zeleznica/historia6.html">Dobrovodská lesná železnica (zskosariska.sk)</a></li></ul></section>
+</article>
+<aside><div class="side-card"><h2>V skratke</h2><dl class="facts"><dt>Téma</dt><dd>História</dd><dt>Trasa</dt><dd>Krátka aj dlhá trasa</dd><dt>Rozchod</dt><dd>600 mm</dd><dt>Dĺžka trate</dt><dd>22 km</dd><dt>Vybudovaná</dt><dd>1901 až 1903</dd><dt>GPS</dt><dd>48.60089° N, 17.53896° E</dd></dl></div><div class="side-card"><h2>Poloha</h2><div id="minimap" class="map mini" data-lat="48.6008908" data-lng="17.5389569" data-n="2" data-theme="hist"></div>
+<div class="maplinks"><a href="https://mapy.cz/zakladni?x=17.5389569&y=48.6008908&z=17&source=coor&id=17.5389569,48.6008908">Mapy.cz</a><a href="https://www.google.com/maps/search/?api=1&query=48.6008908,17.5389569">Google Maps</a><a href="https://www.openstreetmap.org/?mlat=48.6008908&mlon=17.5389569#map=18/48.6008908/17.5389569">OSM</a></div></div></aside>
+</main>
+<nav class="pnav" aria-label="Susedné zastavenia"><a class="pn prev" href="../1/"><small>← Predchádzajúce</small><b>1. Hlávka</b></a><a class="pn next" href="../3/"><small>Ďalšie →</small><b>3. Bachárka</b></a></nav>
+<footer class="site-footer"><div class="wrap foot"><div class="fb"><a class="brand" href="../"><span class="mk"><svg class="mark" viewBox="112 56 176 270" aria-hidden="true"><defs><polygon id="tcf" points="0,-96 24,-54 13,-54 38,-14 -38,-14 -13,-54 -24,-54"/><clipPath id="ccf"><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z"/></clipPath></defs><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z" fill="var(--mark-bg,#12353A)"/><g clip-path="url(#ccf)"><use href="#tcf" transform="translate(162 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tcf" transform="translate(238 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tcf" transform="translate(200 262)" fill="#F4EFE3"/><path d="M156 268 q10.5 -8 21 0 t21 0 t21 0 t21 0 t21 0" fill="none" stroke="#3FA7C4" stroke-width="5" stroke-linecap="round"/></g></svg></span><span class="bt"><b>Dobrá Voda</b><i>Digitálny sprievodca</i></span></a><p>Školský maturitný projekt 2026/27 · Lýceum C. S. Lewisa.<br>Texty vychádzajú zo zdrojov uvedených pri každom zastavení.</p></div>
+<p class="small">Mapové podklady © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, © <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA).</p></div></footer>
+<script src="../vendor/leaflet/leaflet.js"></script><script src="../js/stops.js"></script><script src="../js/map.js"></script></body></html>

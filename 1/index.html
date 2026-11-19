@@ -1,82 +1,27 @@
 <!DOCTYPE html>
-<html lang="sk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prameň Hlávka | Sprievodca Dobrou Vodou</title>
-  <meta name="description" content="Prameň Hlávka (v hydrogeologickej správe č. 180, nazývaný aj Hlavina alebo Za kostolom) vyviera priamo v obci Dobrá Voda vo výške 246 m n. m.">
-  <link rel="stylesheet" href="../style.css">
-  <script data-goatcounter="https://dobravoda.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-</head>
-<body>
-
-  <header class="site-header">
-    <div class="container">
-      <a class="logo" href="../">
-        <span class="znacka" aria-hidden="true"></span>
-        <span>Sprievodca Dobrou Vodou</span>
-      </a>
-      <nav class="nav" aria-label="Hlavná navigácia">
-        <a href="../#zastavenia">Zastavenia</a>
-        <a href="../#o-sprievodcovi">O sprievodcovi</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero hero-compact">
-    <div class="container">
-      <p class="hero-kicker">Zastavenie 1 z 9</p>
-      <h1>Prameň Hlávka</h1>
-    </div>
-  </section>
-
-  <main class="section">
-    <div class="container">
-      <a class="back" href="../#zastavenia">← Všetky zastavenia</a>
-
-      <div class="article-layout">
-        <div class="article-text">
-          <p>Prameň Hlávka (v hydrogeologickej správe č. 180, nazývaný aj Hlavina alebo Za kostolom) vyviera priamo v obci Dobrá Voda vo výške 246 m n. m.</p>
-          <p>Zachytenie prameňa projektovali v roku 1954 a zachytený bol v roku 1957. Už v roku 1930 ho spolu s prameňom Pod Mariášom posudzovali ako zdroj vody pre mesto Trnava. Po roku 1967 sa záchyt rekonštruoval a jazierko pod prameňom sa zlikvidovalo. Pôvodne až polovica výdatnosti vyvierala mimo záchytu. Obec uvádza, že prameň bol pri výstavbe vodovodu zabetónovaný a ohradený.</p>
-          <p>Hlávka je najväčší bodový prameň v Brezovských Karpatoch a patrí k najspoľahlivejším zdrojom v Dobrej Vode. Jeho priemerná výdatnosť je približne 46 l/s <mark class="overit">[správa na inom mieste uvádza 55 l/s, potvrdiť u experta]</mark>. V rokoch 1964 až 1968 sa výdatnosť pohybovala od 46,1 do 126,0 l/s (priemer 73,5 l/s), v rokoch 2014 až 2018 od 40,3 do 55,0 l/s (priemer 45,7 l/s). Teplota vody je okolo 10 °C (9,2 až 11,0 °C, v rokoch 2014 až 2018 10,0 až 10,6 °C). Využiteľné množstvo je 46 l/s. Ide o krasový prameň s veľkou infiltračnou oblasťou v jadre štruktúry Klenová, ktorú tvoria hlavne vápence. Samotný výver je v dobrovodských karbonátových zlepencoch. Počas zemetrasenia v roku 1906 sa voda v prameni sfarbila na červeno.</p>
-
-          <section class="sources">
-            <h2>Zdroje</h2>
-            <ul>
-            <li><a href="https://www.obecdobravoda.eu/obec/popis-obce/vodopis/">Obec Dobrá Voda: Vodopis</a></li>
-            <li>Malík, P. a kol. 2022: Základná hydrogeologická a hydrogeochemická mapa Brezovských Karpát v mierke 1 : 50 000 (vysvetlivky), s. 4, 36, 123 až 127, 272 až 275, 281</li>
-            </ul>
-          </section>
-        </div>
-
-        <aside>
-          <dl class="facts">
-            <h2>V skratke</h2>
-          <dt>Téma</dt>
-          <dd>Hydrogeológia</dd>
-          <dt>Poloha</dt>
-          <dd>V obci Dobrá Voda, 246 m n. m.</dd>
-          <dt>Priemerná výdatnosť</dt>
-          <dd>približne 46 l/s</dd>
-          <dt>Teplota vody</dt>
-          <dd>okolo 10 °C</dd>
-          </dl>
-        </aside>
-      </div>
-
-      <nav class="stop-nav" aria-label="Ďalšie zastavenia na trase">
-        <a href="../#trasy">← Trasy</a>
-        <a href="../2/">2. Ajšnit: úzkorozchodná lesná železnica →</a>
-      </nav>
-      <p class="route-note">Krátka trasa: ďalej <a href="../2/">2. Ajšnit: úzkorozchodná lesná železnica</a>.</p>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>Školský maturitný projekt 2026/27. Texty vychádzajú z overených zdrojov uvedených pri každom zastavení.</p>
-    </div>
-  </footer>
-
-</body>
-</html>
+<html lang="sk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prameň Hlávka | Dobrá Voda – digitálny sprievodca</title><meta name="description" content="Prameň Hlávka (v literatúre aj Za kostolom) vyviera a je zachytený v strede obce, vo výške približne 246 metrov nad morom. Na rozdiel od občasných vyvierač"><meta name="theme-color" content="#12353A">
+<link rel="preload" href="../fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
+<script data-goatcounter="https://dobravoda.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></head>
+<body class="stop t-hydro"><header class="site-header"><div class="wrap bar"><a class="brand" href="../"><span class="mk"><svg class="mark" viewBox="112 56 176 270" aria-hidden="true"><defs><polygon id="tch" points="0,-96 24,-54 13,-54 38,-14 -38,-14 -13,-54 -24,-54"/><clipPath id="cch"><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z"/></clipPath></defs><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z" fill="var(--mark-bg,#12353A)"/><g clip-path="url(#cch)"><use href="#tch" transform="translate(162 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tch" transform="translate(238 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tch" transform="translate(200 262)" fill="#F4EFE3"/><path d="M156 268 q10.5 -8 21 0 t21 0 t21 0 t21 0 t21 0" fill="none" stroke="#3FA7C4" stroke-width="5" stroke-linecap="round"/></g></svg></span><span class="bt"><b>Dobrá Voda</b><i>Digitálny sprievodca</i></span></a>
+<nav class="nav" aria-label="Hlavná navigácia"><a href="../#mapa">Mapa</a><a href="../#zastavenia">Zastavenia</a><a href="../#trasy">Trasy</a><a href="../#o-chodniku">O chodníku</a></nav></div></header>
+<section class="shero"><img class="bg" src="../img/1-1.jpg" alt="Zastavenie 1: Prameň Hlávka" onerror="this.remove()"><div class="wrap">
+<a class="back" href="../#zastavenia">← Všetky zastavenia</a>
+<p class="kick"><span class="bn">1</span> Zastavenie 1 z 9 <i>·</i> Hydrogeológia <i>·</i> <span class="rt">Krátka aj dlhá trasa</span></p>
+<h1>Prameň Hlávka</h1></div></section>
+<main class="wrap art"><article>
+<p>Prameň Hlávka (v literatúre aj Za kostolom) vyviera a je zachytený v strede obce, vo výške približne 246 metrov nad morom. Na rozdiel od občasných vyvieračiek je to trvalý krasovo-puklinový prameň s pomerne stabilnou výdatnosťou počas roka, hoci z dlhodobého hľadiska klesla, a s teplotou vody okolo 9 až 11 °C.</p><p>Hlávka je najväčší bodový prameň v Brezovských Karpatoch. V rokoch 1964 – 1968 mal priemernú výdatnosť až 73,5 litra za sekundu, v rokoch 2014 – 2018 okolo 46 litrov za sekundu (najmenej 40, najviac 55). Voda pochádza z rozsiahleho územia v jadre krasovej štruktúry Klenová a na povrch vystupuje v dobrovodských karbonátových zlepencoch. Sedimenty Dobrovodskej kotliny pôsobia ako bariéra, ktorá vodu vytláča na povrch práve tu – podobne ako pri Prameni pod Mariášom. (Malík et al. 2022)</p><p>Na kameni stojí aj história obce. Dobrá Voda patrí k najvýznamnejším strediskám kamenárstva na západnom Slovensku. Rovnaké dobrovodské karbonátové zlepence a pieskovce, z ktorých vyviera Hlávka, sa ťažili v lome Kostolná Hôrka za kostolom – je to najstarší lom tohto kameňa v obci a ťažilo sa v ňom pravdepodobne už pri stavbe hradu. Hornina tvorí veľké bloky a dá sa dobre opracovať, preto sa používala na stavby v širokom okolí. Kamenársku tradíciu podľa literatúry rozvinuli talianski majstri, ktorí tu pracovali už od stavby hradu. Dobrovodskí kamenári vyrábali najmä náhrobníky – typické oblúkové „púgnové“ s výklenkom pre sošku Panny Márie, ale aj „dvojáky“ a „trojáky“ pre viacerých členov rodiny. Nájdeme ich na cintorínoch v celom okrese Trnava. V roku 1896 sa v obci spomína kamenársky cech s 24 kamenármi a ešte v roku 1925 tu pracovalo 12 kamenárov. (Hornáčková 2017; obecdobravoda.eu)</p><p>Prameň zachytili v roku 1957 (projekt vznikol v roku 1954) a po roku 1967 záchyt zrekonštruovali; jazierko pod prameňom vtedy zaniklo. Záchyt nebol dokonalý – pôvodne až polovica vody vyvierala mimo neho. Dnes je Hlávka spoľahlivejším vodárenským zdrojom obce než Prameň pod Mariášom a časť nezachytenej vody tvorí krátky prítok Hornej Blavy. Prvú úplnú analýzu vody z Hlávky a Mariáša urobil Lešták v roku 1955. (Malík et al. 2022)</p>
+<figure class="fig"><img src="../img/1-2.jpg" alt="Zastavenie 1: Prameň Hlávka" loading="lazy" onerror="this.closest('figure').remove()"></figure>
+<div class="callout see"><h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1.5 12S5.5 5 12 5s10.5 7 10.5 7-4 7-10.5 7S1.5 12 1.5 12z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>Všimnite si na mieste</h2><p>Pozrite sa, koľko vody práve vyteká, a zapamätajte si to. Na dlhej trase to porovnáte pri Vyvieračke pod Bachárkou (zastavenie 3), na krátkej pri Prameni pod Mariášom (zastavenie 7): prečo jeden prameň tečie stále a druhý len občas?</p></div>
+<div class="callout go"><h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Kam ďalej</h2><ul class="nextl"><li><b>Obe trasy</b><span>Zastavenie 2 – Ajšnit, za záchytom prameňa smerom na hrad.</span></li></ul></div>
+<section class="sources"><h2>Zdroje</h2><ul><li><a href="https://www.obecdobravoda.eu/obec/popis-obce/vodopis/">Obec Dobrá Voda: Vodopis</a></li><li>Malík, P. a kol. 2022: Základná hydrogeologická a hydrogeochemická mapa Brezovských Karpát v mierke 1 : 50 000 (vysvetlivky), s. 4, 36, 123 až 127, 272 až 275, 281</li></ul></section>
+</article>
+<aside><div class="side-card"><h2>V skratke</h2><dl class="facts"><dt>Téma</dt><dd>Hydrogeológia</dd><dt>Trasa</dt><dd>Krátka aj dlhá trasa</dd><dt>Poloha</dt><dd>V obci Dobrá Voda, 246 m n. m.</dd><dt>Priemerná výdatnosť</dt><dd>približne 46 l/s</dd><dt>Teplota vody</dt><dd>okolo 10 °C</dd><dt>GPS</dt><dd>48.59724° N, 17.53867° E</dd></dl></div><div class="side-card"><h2>Poloha</h2><div id="minimap" class="map mini" data-lat="48.5972403" data-lng="17.5386694" data-n="1" data-theme="hydro"></div>
+<div class="maplinks"><a href="https://mapy.cz/zakladni?x=17.5386694&y=48.5972403&z=17&source=coor&id=17.5386694,48.5972403">Mapy.cz</a><a href="https://www.google.com/maps/search/?api=1&query=48.5972403,17.5386694">Google Maps</a><a href="https://www.openstreetmap.org/?mlat=48.5972403&mlon=17.5386694#map=18/48.5972403/17.5386694">OSM</a></div></div></aside>
+</main>
+<nav class="pnav" aria-label="Susedné zastavenia"><span></span><a class="pn next" href="../2/"><small>Ďalšie →</small><b>2. Ajšnit</b></a></nav>
+<footer class="site-footer"><div class="wrap foot"><div class="fb"><a class="brand" href="../"><span class="mk"><svg class="mark" viewBox="112 56 176 270" aria-hidden="true"><defs><polygon id="tcf" points="0,-96 24,-54 13,-54 38,-14 -38,-14 -13,-54 -24,-54"/><clipPath id="ccf"><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z"/></clipPath></defs><path d="M200 60 L274.06 198.36 A84 84 0 1 1 125.94 198.36 Z" fill="var(--mark-bg,#12353A)"/><g clip-path="url(#ccf)"><use href="#tcf" transform="translate(162 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tcf" transform="translate(238 262) scale(0.62)" fill="#F4EFE3" opacity="0.72"/><use href="#tcf" transform="translate(200 262)" fill="#F4EFE3"/><path d="M156 268 q10.5 -8 21 0 t21 0 t21 0 t21 0 t21 0" fill="none" stroke="#3FA7C4" stroke-width="5" stroke-linecap="round"/></g></svg></span><span class="bt"><b>Dobrá Voda</b><i>Digitálny sprievodca</i></span></a><p>Školský maturitný projekt 2026/27 · Lýceum C. S. Lewisa.<br>Texty vychádzajú zo zdrojov uvedených pri každom zastavení.</p></div>
+<p class="small">Mapové podklady © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, © <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA).</p></div></footer>
+<script src="../vendor/leaflet/leaflet.js"></script><script src="../js/stops.js"></script><script src="../js/map.js"></script></body></html>
